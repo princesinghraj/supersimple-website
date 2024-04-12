@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    section{
+        padding: 100px 200px;
+    }
+     .main{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(WhatsApp\ Image\ 2022-11-11\ at\ 11.42.49\ raj.jpg);
+        background-size: cover;
+        }
+          .main .content{
+            max-width:800px;
+        }
+           .main.content h2{
+            color: white;
+            font-size: 2em;
+            font-weight: 500;
+        }
+        .main.content h2 span{
+            font-size: 2em;
+            font-weight: 600;
+        }
+        .text-animated{
+          position: relative;
+          height: 70px;
+          overflow: hidden;
+        }
+        .text-animated h2{
+            color: aqua;
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: 1px;
+          }
+          .text-animated h2:nth-child(1){
+            animation: text-move 10s infinite;
+          }
+          @keyframes text-move{
+            0%{
+                margin-top: 0;
+            }
+             25%{
+               margin-top: -70px;
+              }
+              50%{
+                margin-top: -140px;
+              }
+              75%{
+                margin-top:-70px;
+              }
+             100%{
+              margin-top: 0;
+             }
+            }
+            .btn{
+              color: red;
+              background: white;
+              display: inline-block;
+              padding: 10px 20px;
+              font-size: 1em;
+              font-weight: 500;
+              text-transform: uppercase;
+              text-decoration: none;
+              border-radius:2px;
+              transition: 0.5s ease;
+            }
+            .btn:hover{
+              background: blue;
+            }
+            .media-icons{
+              margin-top:50px;
+            }
+            .media-icons a{
+              color: blue;
+              margin-right: 30px;
+              font-size: 50px;
+              font-weight: bold;
+            }
+            header{
+              z-index:999;
+              position: fixed;
+              padding: 10px 200px;
+              width: 100%;
+              top: 0%;
+              left: 0%;
+              display: flex;
+              background: red;
+              transition: 0.5s ease;
+              justify-content: space-between;
+              align-items: center;
+             }
+             header.sticky{
+              background: blue;
+             }
+             .brand{
+              color: aqua;
+              font-size: 1.8em;
+              font-weight: 500;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            .navigation{
+              position: relative;
+            }
+            .navigation a{
+              color: black;
+              font-size: 1.8em;
+              font-weight: 500;
+              text-decoration: none;
+              padding: 10px 20px;
+              margin-left: 20px;
+            }
+            .navigation a:hover{
+              color: white;
+            }
+            .body{
+              min-height: 110vh;
+            }
+
+            .title h2{
+              text-align: center;
+              text-decoration-line: underline;
+            }
+            .img {
+              text-align: center;
+            }
+             
+  
+          
+          
+        
